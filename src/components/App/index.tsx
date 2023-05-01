@@ -1,7 +1,7 @@
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from 'styled-components';
 
-import { GlobalStyles, defaultTheme } from "@/assets/styles";
-import { Wrapper } from "./styles";
+import { GlobalStyles, defaultTheme } from '@/assets/styles';
+import { Wrapper } from './styles';
 
 function App() {
   return (
