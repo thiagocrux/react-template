@@ -6,6 +6,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+    /* Custom config */
     "baseUrl": "./",
     "paths": {
       "@assets/*": ["./src/assets/*"],
@@ -16,6 +17,7 @@
       "@pages/*": ["./src/pages/*"],
       "@services/*": ["./src/services/*"],
     },
+    "esModuleInterop": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
